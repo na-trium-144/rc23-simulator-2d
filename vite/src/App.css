@@ -1,0 +1,102 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+button {
+  font-size: inherit;
+}
+
+input {
+  font-size: inherit;
+}
+
+.field {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.field-button {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  z-index: 2147483647;
+  cursor: default;
+  color: transparent;
+  font-size: 0;
+}
+
+.object {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.border-red {
+  border-style: solid;
+  border-color: red;
+}
+
+.border-blue {
+  border-style: solid;
+  border-color: blue;
+}
+
+.er {
+  width: 90px;
+  height: 90px;
+  border-width: 5px;
+  background: white;
+}
+
+.rr {
+  width: 40px;
+  height: 40px;
+  border-width: 5px;
+  background: white;
+  font-size: 16px;
+}
+
+.throw-area {
+  border-style: dotted;
+  border-width: 3px;
+  border-radius: 50%;
+}
+
+.ring {
+  width: 15px;
+  height: 15px;
+  border-width: 5px;
+  border-radius: 50%;
+}
+
+.right-pane {
+  position: absolute;
+  left: 1200px;
+  padding: 10px;
+}
+
+.bottom-pane {
+  position: absolute;
+  top: 1200px;
+  padding: 10px;
+}
+
+.scoretable {
+  text-align: center;
+  border: solid;
+}
+
+.paramtable {
+  text-align: left;
+  border: none;
+}
